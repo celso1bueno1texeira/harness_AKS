@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #FFFFFF;
+    color: #000080;
+    padding: 5px;
+    margin: 10px;    
+    display: flex;
+    /*align-items: center;
+    text-align: center;*/
+    font-size: 35px;    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #0000b3;
+}
+.logo{
+  background-color: white; 
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: #d87709;
+} 
+
+.logo2{
+  background-color: white; 
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  right: 15px;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: #0000b3;
+} 
+
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #87CEFA;  
+    
+}
+.container {  
+  margin: 25px;
+  align-content: center;  
+  background-color: #e6e6e8 ;
+  padding: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: #0000b3;
+}
+.container > div {
+  margin-left: 300px;
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  padding: 25px 0;
+  margin: 10px;
+  width: 130px; 
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: #0000b3;
+}
+
+h1{
+  
+  color: #cccccc;
+  text-shadow: 3px 3px #d87709;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 5em;   
+  padding-top: 1%; 
+
+}
+h2{
+  text-shadow: 2px 2px #d87709;  
+  text-align: center;
+  color: #0000b3;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2em;   
+  padding-top: 1%;
+  align-items: center;  
+  flex: 1;
+}
+
+footer { 
+  position: fixed;
+  bottom: 0;
+  margin: 10px;
+  padding: 10px;
+  width: 98%;
+  height: 50px;
+  text-align: center;
+  padding: 3px;
+  background-color:  white; 
+  color: #cccccc;
+  margin: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #0000b3;
+}
+
+
+
+
+
+
